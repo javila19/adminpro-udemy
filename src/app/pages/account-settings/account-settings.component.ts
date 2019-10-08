@@ -2,6 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { SettingsService } from 'src/app/services/service.index';
 
+
 @Component({
   selector: 'app-account-settings',
   templateUrl: './account-settings.component.html',
@@ -15,6 +16,7 @@ export class AccountSettingsComponent implements OnInit {
 
   ngOnInit() {
     this.colocarCheck();
+
   }
 
 
