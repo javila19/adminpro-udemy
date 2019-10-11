@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { RouterModule } from '@angular/router';
 
+import { PipesModule } from '../pipes/pipes.module';
 
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { HeaderComponent } from '../shared/header/header.component';
@@ -24,7 +25,8 @@ import { BreadcrumbsComponent } from '../shared/breadcrumbs/breadcrumbs.componen
     ],
     imports: [
         RouterModule,
-        CommonModule
+        CommonModule,
+        PipesModule
     ],
     providers: [],
 })
